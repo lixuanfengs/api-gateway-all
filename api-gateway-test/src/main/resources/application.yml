@@ -1,0 +1,54 @@
+server:
+  port: 8085
+
+dubbo:
+  application:
+    name: api-gateway-test
+    version: 1.0.0
+  registry:
+    #address: N/A 泛化调用不能使用此方式
+    address: zookeeper://192.168.1.107:2181
+  protocol:
+    name: dubbo
+    port: 20880
+    host: localhost
+  provider: # 解决使用 docker 部署 zookeeper 时可能会出现消费端获取的是容器的网关ip
+    host: localhost
+  scan:
+    base-packages: cn.cactusli.gateway.rpc
+
+# 前面章节不涉及到上报服务，需要把以下配置注释掉
+gateway:
+  sdk:
+    enable: true
+    # 注册中心；从这里获取接口信息以及完成注册网关操作
+    address: http://192.168.1.218:8001
+    systemId: api-gateway-test-provider
+    systemName: 网关sdk测试工程
+    systemRegistry: zookeeper://192.168.1.107:2181
+#gateway:
+#  sdk:
+#    enable: true
+#    # 注册中心；从这里获取接口信息以及完成注册网关操作
+#    address: http://192.168.1.218:8001
+#    systemId: api-gateway-test-provider-02
+#    systemName: 网关sdk测试工程
+#    systemRegistry: zookeeper://192.168.1.107:2181
+
+#gateway:
+#  sdk:
+#    enable: true
+#    # 注册中心；从这里获取接口信息以及完成注册网关操作
+#    address: http://192.168.1.218:8001
+#    systemId: api-gateway-test-provider-03
+#    systemName: 网关sdk测试工程
+#    systemRegistry: zookeeper://192.168.1.107:2181
+
+#gateway:
+#  sdk:
+#    enable: true
+#    # 注册中心；从这里获取接口信息以及完成注册网关操作
+#    address: http://192.168.1.218:8001
+#    systemId: api-gateway-test-provider-04
+#    systemName: 网关sdk测试工程
+#    systemRegistry: zookeeper://192.168.1.107:2181

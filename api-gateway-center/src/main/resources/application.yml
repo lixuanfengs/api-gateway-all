@@ -1,0 +1,27 @@
+server:
+  port: 8001
+
+nginx:
+  server-name: 192.168.1.19
+  conf-path: C:\Users\Dell\nginx\nginx.conf # windows
+  #conf-path: /data/nginx/nginx.conf # docker
+  with-docker-host: tcp://192.168.1.19:4610 # windows
+  conf-path-docker: /etc/nginx/ # docker
+  #with-docker-host: unix:///var/run/docker.sock # docker
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.107:3307/api-gateway?useUnicode=true&characterEncoding=UTF-8
+    username: cactusli
+    password: Nstr.!@#$%808
+  redis:
+    host: 192.168.1.18
+    port: 6380
+    password: Nstr.@#$808
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  #config-location: classpath:/config/mybatis-config.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
