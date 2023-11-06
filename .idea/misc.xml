@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/api-gateway-sdk/api-gateway-sdk-01/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-sdk/api-gateway-sdk-02/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-01/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-02/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-03/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-04/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-05/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-06/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-07/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-08/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/api-gateway-core-09/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-test/api-gateway-test-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-assist/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-center-01/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-center-02/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-center-03/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-center-04/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-center-05/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-cneter-06/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-cneter-07/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-cneter-08/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/api-gateway-cneter-09/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-engine/api-gateway-engine-01/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-assist/api-gateway-assist-00/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-assist/api-gateway-assist-01/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-assist/api-gateway-assist-02/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-assist/api-gateway-assist-03/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-assist/api-gateway-assist-04/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-assist/api-gateway-assist-05/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-center/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-core/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-engine/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-test/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/api-gateway-admin/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
