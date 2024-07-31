@@ -27,7 +27,6 @@ import java.util.Map;
  */
 public class Configuration {
 
-
     // 网关 Netty 服务地址
     private String hostName = "127.0.0.1";
     // 网关 Netty 服务端口
